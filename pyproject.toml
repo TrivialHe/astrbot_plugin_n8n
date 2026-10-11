@@ -1,0 +1,8 @@
+[project]
+name = "ones-n8n-maa-plugin-tests"
+version = "1.2.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false

@@ -1,5 +1,5 @@
 name: astrbot_plugin_n8n 
-desc: 调用 n8n 的插件，支持通过指定关键词/n8n调用n8n的webhook。
-version: v1.0
+desc: 明日方舟 MAA 自动化，支持每日任务、AUTO刷关卡、指定关卡和理智药数量
+version: v1.2.0
 author: Wanxp
-repo: https://github.com/Wanxp/astrbot_plugin_n8n
+repo: https://github.com/TrivialHe/astrbot_plugin_n8n

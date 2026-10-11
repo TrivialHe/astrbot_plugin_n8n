@@ -4,14 +4,14 @@
     "type": "object",
     "items": {
       "adminIds": {
-        "description": "发送者的ids,逗号分割, 只有这些才会触发调用",
+        "description": "允许的发送者 ID，逗号分隔；精确匹配，不填写群号或会话标识。",
         "type": "string",
-        "default": "wxid_xxxxx,wxid_yyyyy"
+        "default": ""
       },
       "n8n_webhook_url": {
         "description": "N8N 监听地址,比如 https://your-domain/webhook/path",
         "type": "string",
-        "default": "https://your-n8n-domain/webhook/your-path"
+        "default": "http://n8n:5678/webhook/astrbot-maa"
       },
       "username": {
         "description": "Basic Auth username",
@@ -21,7 +21,12 @@
       "password": {
         "description": "Basic Auth password",
         "type": "string",
-        "default": "test"
+        "default": ""
+      },
+      "allowedPlatformIds": {
+        "description": "自动化入口平台 ID，逗号分隔。仅开放 QQ 官方与微信。",
+        "type": "string",
+        "default": ""
       }
     }
   }
