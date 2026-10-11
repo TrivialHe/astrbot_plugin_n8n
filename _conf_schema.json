@@ -4,7 +4,7 @@
     "type": "object",
     "items": {
       "adminIds": {
-        "description": "发送者的ids,逗号分割, 只有这些才会触发调用",
+        "description": "允许的发送者 ID，多个以逗号分隔；精确匹配，不能填写群号、会话 ID 或 ID 片段。",
         "type": "string",
         "default": "wxid_xxxxx,wxid_yyyyy"
       },
